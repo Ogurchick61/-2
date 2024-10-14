@@ -1,11 +1,11 @@
 #Практическое задание по теме "Переменные"
 
-Курс = 'Python'
-
-Всего_задач = 12
-
-Затрачено_часов = 1.5
-
-Среднее_время_выполнения = 0.125
-
-print('Курс:Python,всего задач:12,','затрачено часов:1.5,','среднее время выполнения 0.125 часа.')
+completed_homework_count = 12
+hours_spent = 1.5
+course_name = 'Python'
+time_per_task = hours_spent / completed_homework_count
+print('Курс: ', course_name,
+    ', всего задач: ', completed_homework_count,
+    ', затрачено часов: ', hours_spent,
+    ', среднее время выполнения: ', time_per_task,
+      '.', sep='')
